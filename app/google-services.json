@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789885737342",
+    "project_id": "mathematics-class-10th-5bda5",
+    "storage_bucket": "mathematics-class-10th-5bda5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789885737342:android:49e62c708ce0c3d77c7b2f",
+        "android_client_info": {
+          "package_name": "com.class10th.mathematics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789885737342-qeqrvacvbtqimj301h0ite6kuun8o5i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeLKewQZG7mdC4_mPaWCj0L4NuTz85JKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789885737342-qeqrvacvbtqimj301h0ite6kuun8o5i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
