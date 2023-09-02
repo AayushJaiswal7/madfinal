@@ -61,7 +61,7 @@ public class DetailsActivity extends AppCompatActivity {
                 Model model = snapshot.getValue(Model.class);
 
                 if (model.isBanner()) {
-                    showBannerAds();
+                        showBannerAds();
                 }
 
             }

@@ -26,7 +26,7 @@ public class InterstitialAds {
                         // The mInterstitialAd reference will be null until
                         // an ad is loaded.
                         mInterstitialAd = interstitialAd;
-                       
+
                     }
 
                     @Override

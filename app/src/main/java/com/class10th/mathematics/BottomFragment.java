@@ -37,7 +37,7 @@ public class BottomFragment extends BottomSheetDialogFragment {
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT, "My application name");
                 String shareMessage = "\nLet me recommend you this application: ";
-                shareMessage = shareMessage + "https://play.google.com/store/apps/details?id=com.class10th.mathematics";
+                shareMessage = shareMessage + "https://play.google.com";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage);
                 startActivity(Intent.createChooser(shareIntent, "choose one"));
             } catch (Exception e) {
@@ -52,27 +52,27 @@ public class BottomFragment extends BottomSheetDialogFragment {
                         Uri.parse("market://details?id=" + requireContext().getPackageName())));
             } catch (android.content.ActivityNotFoundException e) {
                 startActivity(new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("http://play.google.com/store/apps/details?id=com.class10th.mathematics")));
+                        Uri.parse("http://play.google.com")));
             }
         });
 
 
         binding.youtube.setOnClickListener(v->{
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://www.youtube.com/@DearNitishsir"));
+            intent.setData(Uri.parse("https://www.youtube.com"));
             startActivity(intent);
         });
 
 
         binding.telegram.setOnClickListener(v->{
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://t.me/dearnitishsirofficial"));
+            intent.setData(Uri.parse("https://t.me"));
             startActivity(intent);
         });
 
         binding.moreApps.setOnClickListener(v->{
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://play.google.com/store/apps/developer?id=Yadav+Creation"));
+            intent.setData(Uri.parse("https://play.google.com"));
             startActivity(intent);
         });
 

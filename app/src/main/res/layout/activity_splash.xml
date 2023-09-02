@@ -10,6 +10,19 @@
     android:orientation="vertical"
     tools:context=".SplashActivity">
 
+<!--    <ImageView-->
+<!--        android:layout_width="440dp"-->
+<!--        android:layout_height="862dp"-->
+<!--        android:layout_marginStart="16dp"-->
+
+
+<!--        android:src="@drawable/download1"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.274"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
